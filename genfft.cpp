@@ -3,6 +3,7 @@
 #include <vector>
 #include <algorithm>
 #include <cmath>
+//#include <math.h>
 #include <regex>
 #include <functional>
 #include <string>
@@ -11,6 +12,10 @@
 #include <sstream>
 
 #include <prime_numbers.h>
+
+#ifndef M_PI
+  #define M_PI            3.14159265358979323846
+#endif
 
 
 constexpr bool DEBUG = false;
