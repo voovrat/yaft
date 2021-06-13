@@ -8,7 +8,7 @@ FLAGS=$RELEASE_FLAGS
 
 STD="--std=c++17"
 
-UTILS=../utils
+UTILS=../voovrat-utils
 
 SRC=$(  cat << EOL
 $UTILS/prime_numbers.cpp
