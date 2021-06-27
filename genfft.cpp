@@ -1200,6 +1200,7 @@ main()
 	}
 
 	fs << "g++ -O3 -c yafft.cpp\n";
+	fs << "g++ -O3 -c yafft2.cpp\n";
 
 	fs << "rm libyaft.a\n";
 	fs << "ar -rcs libyaft.a *.o\n";
